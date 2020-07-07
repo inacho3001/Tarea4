@@ -13,7 +13,7 @@ En el caso del problema presentado se necesitan modular 10000 bits del archivo b
 
 ## Pregunta #2
 
-Para realizar el calculo de la potencia promedio se usa la siguiente formula para la potencia promedio de un proceso estocastico, con el metodo integrate de scipy.
+Para realizar el calculo de la potencia promedio se usa la siguiente formula para la potencia promedio de un proceso estocastico, con el metodo integrate de scipy.  
 ![potencia_formula](Imagenes/potencia_formula.png)  
 Dando como resultado el siguiente valor:  
 ![P_promedio](Imagenes/P_promedio.png) 
@@ -33,7 +33,7 @@ En el caso del problema propuesto, era necesario simular un canal ruidoso con va
 ![Rx5](Graficos/Rx5.png)
 
 ## Pregunta #4
-Para graficar la densidad espectral de potencia de la señales se utilizo el metodo Welch de scipy. Primero se muestra el grafico antes del canal ruidoso: 
+Para graficar la densidad espectral de potencia de la señales se utilizo el metodo Welch de scipy. Primero se muestra el grafico antes del canal ruidoso:   
 ![DEP_sin_ruido](Graficos/DEP_sin_ruido.png)  
 Ahora se muestran los graficos con el canal ruidoso para cada valor de SNR:  
 ![DEP_con_ruido0](Graficos/DEP_con_ruido0.png)
